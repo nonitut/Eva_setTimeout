@@ -1,0 +1,78 @@
+*{ box-sizing: border-box;}
+
+@font-face {
+font-family: "CarlaSansLight";
+src: url("../fonts/CarlaSansLight.ttf") format("truetype");
+font-style: Light;
+font-weight: Light;
+}
+
+p{ font-family: 'CarlaSansLight'; }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    height: 2000vw;
+}
+
+.hidden {
+    display: none;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(248, 197, 255);
+    z-index: -1;
+}
+
+#typing-text {
+    font-size: 25vw;
+    line-height: 80%;
+    width: 100%;
+    overflow-x: hidden;
+    text-align: center;
+    color: aliceblue;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4810c2;
+    color: white;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    margin: 1% auto;
+    transition: transform 1s ease;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#content {
+    padding: 20px;
+    text-align: center;
+}
