@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const background = document.getElementById('background');
-    const typingText = document.getElementById('typing-text');
-    const navbar = document.getElementById('navbar');
-    const logo = document.querySelector('.logo');
-    const menuItem1 = document.getElementById('menu-item-1');
-    const content = document.getElementById('content');
+    let background = document.getElementById('background');
+    let typingText = document.getElementById('typing-text');
+    let navbar = document.getElementById('navbar');
+    let logo = document.querySelector('.logo');
+    let menuItem1 = document.getElementById('menu-item-1');
+    let content = document.getElementById('content');
 
     // Функция для печатания текста
     function typeText(element, text, interval) {
